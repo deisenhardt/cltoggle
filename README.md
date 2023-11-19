@@ -6,9 +6,10 @@ Or if you have an alternative installed, please create a link in your \$PATH to 
 
 Typically it will be located at /usr/bin/setxkbmap                                                 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 Usage: 
+
 cltoggle 1 Remap Caps Lock key to Left CTRL
+
 cltoggle 0 Change back to normal Caps Lock function
