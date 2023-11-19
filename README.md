@@ -13,3 +13,11 @@ Usage:
 cltoggle 1 Remap Caps Lock key to Left CTRL
 
 cltoggle 0 Change back to normal Caps Lock function
+
+resources:
+
+[List of all setxkbmap configuration options (including models/layout/etc) ](https://gist.github.com/jatcwang/ae3b7019f219b8cdc6798329108c9aee)
+
+[Arch wiki Xorg/Keyboard configuration](https://wiki.archlinux.org/title/Xorg/Keyboard_configuration)
+
+[man setxkbmap](https://linux.die.net/man/1/setxkbmap)
