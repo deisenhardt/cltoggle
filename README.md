@@ -1,3 +1,5 @@
+#cltoggle
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! cltoggle requires setxkbmap, please install with your preferred package manager if not present     !!
 !! Or if you have an alternative installed, please create a link in your \$PATH to it named setxkbmap !!
