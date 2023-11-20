@@ -12,10 +12,12 @@ usage() {
     if [ -z "$(which setxkbmap)" ]; then
         printf "\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\
                 \n!! cltoggle requires setxkbmap, please install with your preferred package manager if not present     !!\
-                \n!! Or if you have an alternative installed, please create a link in your \$PATH to it named setxkbmap !!\
+                \n!! Or if you have an alternative installed, please create a link in your \$PATH to it named setxkbmap  !!\
                 \n!! Typically it will be located at /usr/bin/setxkbmap                                                 !!\
                 \n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n"
     fi
+
+    # one line is wonky due to \$ throwing off spacing
 
     printf "\nUsage: \n\n cltoggle 1 Remap Caps Lock key to Left CTRL\
             \n\n cltoggle 0 Change back to normal Caps Lock function\n\n"
